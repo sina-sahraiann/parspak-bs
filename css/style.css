@@ -1,0 +1,59 @@
+body,
+input {
+  font-family: "Vazirmatn", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.ri-arrow-down-s-line ::after {
+  display: none;
+}
+
+.over-scroll {
+  overscroll-behavior-y: contain;
+}
+
+.list-group-item-tab {
+  min-width: 5rem !important;
+}
+
+.offcanvas {
+  width: 19rem !important;
+}
+
+.bg-info {
+  background-color: #248fde !important;
+}
+
+.bg-md-info {
+  background-color: #248fde !important;
+}
+
+.text-info {
+  color: #248fde !important;
+}
+
+.ticket-fix {
+  width: 15.6rem;
+}
+
+.menu-bar {
+  width: 10rem;
+}
+
+.slide {
+    overflow-y: scroll !important;
+}
+
+@media (min-width: 768px) {
+  .bg-md-info {
+    background-color: #fff !important;
+  }
+
+  .text-md-dark {
+    color: black !important;
+  }
+}
